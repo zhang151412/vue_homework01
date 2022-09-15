@@ -1,15 +1,15 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <BookMgr msg="图书管理系统"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BookMgr from './components/BookMgr.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    BookMgr
   }
 }
 </script>
